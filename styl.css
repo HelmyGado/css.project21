@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px;
+  background-color: #fff;
+}
+
+header img {
+  width: 30px;
+}
+.logo {
+  text-decoration: none;
+  color: #00b39b;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+
+span {
+  color: #ababab;
+}
+
+.natvagtion a {
+  color: #00b39b;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1em;
+  padding-left: 15px;
+}
+
+#test1 {
+  color: #ababab;
+}
+
+.natvagtion a:hover {
+  color: #00b39b;
+}
+
+section {
+  padding: 100px 200px;
+  width: 100%;
+}
+
+.main-section-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #00b39b;
+}
+
+section div img {
+  width: 5%;
+  margin: 4%;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.parghraph {
+  padding-top: 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #747489;
+  gap: 6%;
+}
+
+.main-card-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4%;
+}
+
+.card {
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.card-card1 {
+  background-color: #00b39b;
+  border-radius: 1rem;
+  padding: 1rem;
+  line-break: 4%;
+}
+
+.card-card1 img {
+  width: 10%;
+}
+.card-card1 select {
+  background-color: #00b39b;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+.card-card2 {
+  background-color: #4387e0;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.card-card3 {
+  background-color: #283440;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.main-cantry {
+  display: flex;
+  justify-content: center;
+}
+.main-cantry-cards {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 3%;
+}
+
+.cantry-card {
+  margin: 1%;
+}
+
+.cantry-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cards-cantr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
